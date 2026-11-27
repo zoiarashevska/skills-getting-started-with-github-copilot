@@ -32,7 +32,7 @@ A super simple FastAPI application that allows students to view and sign up for 
 From the repository root, install the dependencies in `requirements.txt` and run:
 
 ```
-python -m unittest discover -s tests -v
+python -m pytest tests -v
 ```
 
 ## API Endpoints
